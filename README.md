@@ -48,6 +48,18 @@ Main challenges:
 
 ---
 
+### 🖥️ GNOME Shell Extension (Maintainer)
+Maintainer of a GNOME Shell extension focused on improving desktop UX:
+
+- 🧩 integration with GNOME Shell internals  
+- 🎛️ customization of UI behavior and window management  
+- 🔧 debugging and maintaining compatibility across GNOME versions  
+- 👥 handling real users, issues and updates over time  
+
+👉 https://github.com/yabanana/Fildem
+
+---
+
 ### 🎨 Graphics / Rendering (Vulkan)
 Experimental rendering engine built with Vulkan:
 
