@@ -18,6 +18,27 @@ I focus on understanding how systems behave under real constraints, not just mak
 
 ---
 
+## 🧠 Technical Focus
+
+### 💻 Languages
+- **Primary**: C, C++, Java, Go  
+- **Secondary**: Python, Typescript  
+
+### 🧭 Domains
+- systems programming  
+- distributed systems  
+- real-time graphics  
+- simulation and emergent systems  
+
+### ⚙️ Concepts
+- concurrency and parallelism  
+- event-driven architecture  
+- idempotency and fault tolerance  
+- low-level memory and execution control  
+- performance-oriented design  
+
+---
+
 ## 🧩 Selected Work
 
 ### 🔒 Real-world platform (private)
@@ -79,27 +100,6 @@ Early projects around:
 - interactive systems  
 
 👉 https://github.com/yabanana/FlappyD  
-
----
-
-## 🧠 Technical Focus
-
-### 💻 Languages
-- **Primary**: C, C++, Java, Go  
-- **Secondary**: Python, Typescript  
-
-### 🧭 Domains
-- systems programming  
-- distributed systems  
-- real-time graphics  
-- simulation and emergent systems  
-
-### ⚙️ Concepts
-- concurrency and parallelism  
-- event-driven architecture  
-- idempotency and fault tolerance  
-- low-level memory and execution control  
-- performance-oriented design  
 
 ---
 
