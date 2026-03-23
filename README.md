@@ -67,7 +67,6 @@ Early projects around:
 - interactive systems  
 
 👉 https://github.com/yabanana/FlappyD  
-👉 https://github.com/yabanana/pizFRC/PlayerSeeker  
 
 ---
 
