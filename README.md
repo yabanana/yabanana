@@ -45,27 +45,6 @@ When something breaks, I follow it across the stack: from the request to the dat
 
 <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/dot-amber.svg" width="8" height="8" alt="" /> **Open PR series / experimental.** I'm developing offline x86-64 ELF → ARM64 compilation: instruction semantics, LLVM lowering, ABIs, and native providers. Generated programs require no x86 interpreter, JIT, or Rosetta.
 
-<details>
-<summary><b>Compiler, runtime, and validation ↗</b></summary>
-
-<br>
-
-| Layer | PR scope |
-| :--- | :--- |
-| **Binary recovery** | ELF metadata, relocations, sectionless images, unwind information, and explicit recovery limits. |
-| **Code generation** | Signature-qualified and whole-program paths; guest registers/stack and integer/SIMD semantics lowered through LLVM. |
-| **Runtime** | Native providers, checked indirect transfers, module lifecycle, static TLS, C++ exceptions, and joinable workers. |
-| **Memory ordering** | Bounded concurrency support, checked atomics, and reference comparisons. |
-| **Graphics** | A source-built cube checked against an independent ARM64 reference: exact RGB frames, completed frames, and teardown. |
-
-Validation includes **zstd**, **yaml-cpp**, instruction-level comparisons, and graphics consumers. **Commercial-game compatibility remains unproven**.
-
-[Foundation #1835](https://github.com/boykopovar/AnyPS5/pull/1835) · [Graphics #3891](https://github.com/boykopovar/AnyPS5/pull/3891) · [Whole-program #4599](https://github.com/boykopovar/AnyPS5/pull/4599) · [C++ / TLS #4718](https://github.com/boykopovar/AnyPS5/pull/4718) · [Concurrency #4740](https://github.com/boykopovar/AnyPS5/pull/4740) · [Atomics #4813](https://github.com/boykopovar/AnyPS5/pull/4813)
-
-Merged separately: [macOS unwind contexts #1499](https://github.com/boykopovar/AnyPS5/pull/1499) and [graphics descriptor-array snapshots #1831](https://github.com/boykopovar/AnyPS5/pull/1831).
-
-</details>
-
 ## <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/section-projects.svg" width="24" height="24" alt="" /> Personal projects
 
 | Project | Focus |
