@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+<title id="title">Daniele Giovane</title>
+<desc id="desc">Systems, graphics, and the software in between. Abstract contours connect machine-level detail with complete systems.</desc>
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#c0d6ca" stroke-opacity=".055"/></pattern>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b1f3c2"/><stop offset="1" stop-color="#58b9c5"/></linearGradient>
+  <clipPath id="clip"><rect width="1280" height="380" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1280" height="380" fill="#101b20"/>
+<rect width="1280" height="380" fill="url(#grid)"/>
+<path d="M0 379H1280" stroke="#aff2c2" stroke-width="3"/>
+<g transform="translate(1040 183) rotate(-24)" fill="none" stroke="url(#line)" stroke-width="1.25">
+<ellipse rx="172" ry="126" opacity=".3"/><ellipse rx="158" ry="114" opacity=".4"/><ellipse rx="144" ry="102" opacity=".5"/><ellipse rx="130" ry="90" opacity=".6"/><ellipse rx="116" ry="78" opacity=".8"/><ellipse rx="102" ry="66"/><ellipse rx="88" ry="54"/><ellipse rx="74" ry="42"/><ellipse rx="60" ry="30"/><ellipse rx="46" ry="18"/>
+<path d="M-210 0H210M0-160V160" stroke-dasharray="3 9" opacity=".35"/>
+<circle cx="144" cy="0" r="5" fill="#b1f3c2" stroke="none"/><circle cx="0" cy="-90" r="4" fill="#edb38c" stroke="none"/>
+</g>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="58" y="64" font-size="15" letter-spacing="3" fill="#b1f3c2">YABANANA / ENGINEERING NOTES</text>
+<text x="54" y="151" font-size="64" font-weight="700" letter-spacing="-2" fill="#f2f3ea">Daniele Giovane</text>
+<text x="58" y="207" font-size="27" fill="#d0ddd5">Systems, graphics,</text>
+<text x="58" y="244" font-size="27" fill="#d0ddd5">and the software in between.</text>
+<path d="M58 286H740" stroke="#33474d"/>
+<text x="58" y="323" font-size="14" letter-spacing="2" fill="#a3b5b8">NATIVE CODE</text>
+<circle cx="204" cy="318" r="2.5" fill="#edb38c"/>
+<text x="225" y="323" font-size="14" letter-spacing="2" fill="#a3b5b8">REAL-TIME SYSTEMS</text>
+<circle cx="434" cy="318" r="2.5" fill="#edb38c"/>
+<text x="455" y="323" font-size="14" letter-spacing="2" fill="#a3b5b8">EMERGENT BEHAVIOR</text>
+<text x="952" y="350" font-size="12" letter-spacing="2" fill="#86a29d">DETAIL → SYSTEM</text>
+</g>
+</g>
+</svg>
