@@ -1,6 +1,7 @@
-# Daniele Giovane
-
-**Systems & backend developer** · Native platforms, compilers, graphics, and simulation.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/profile-dark.svg" />
+  <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/profile-light.svg" alt="Daniele Giovane — Systems &amp; backend developer. Native platforms, compilers, graphics, and simulation." width="100%" />
+</picture>
 
 [Open source](#open-source-contributions) · [Personal projects](#personal-projects) · [Private work](#beyond-public-repositories) · [How I work](#how-i-work)
 
@@ -11,7 +12,7 @@ I like understanding a system deeply enough to **build it, explain its failures,
 **C · C++ · Rust · Go · Java** &nbsp; / &nbsp; Python · TypeScript  
 Apple silicon & Linux · Concurrency · Graphics · Distributed systems · Artificial life
 
-## Open source contributions
+## <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/section-oss.svg" width="20" height="20" alt="" /> Open source contributions
 
 ### snx-rs · Bringing a VPN client to macOS
 
@@ -54,7 +55,7 @@ Separate, merged contributions include [macOS unwind register contexts #1499](ht
 
 </details>
 
-## Personal projects
+## <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/section-projects.svg" width="20" height="20" alt="" /> Personal projects
 
 | Project | What I'm exploring |
 | :--- | :--- |
@@ -72,7 +73,7 @@ Separate, merged contributions include [macOS unwind register contexts #1499](ht
 
 </details>
 
-## Beyond public repositories
+## <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/section-private.svg" width="20" height="20" alt="" /> Beyond public repositories
 
 <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/dot-blue.svg" width="8" height="8" alt="" /> My private projects extend the same interests into software people interact with:
 
@@ -80,7 +81,7 @@ Separate, merged contributions include [macOS unwind register contexts #1499](ht
 - **Live race telemetry:** a Go desktop application and UDP-to-WebSocket relay, with concurrent race streams, synchronized state, and deterministic replay for testing.
 - **AI-assisted compliance workflows, in development:** connecting source material, domain rules, permissions, and traceable actions. I'm interested in making AI useful inside systems with explicit authority and verifiable results.
 
-## How I work
+## <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/section-method.svg" width="20" height="20" alt="" /> How I work
 
 <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/dot-blue.svg" width="8" height="8" alt="" /> **Correctness first. Measure next. Optimize what matters.**
 
