@@ -33,13 +33,9 @@ When something breaks, I follow it across the stack: from the request to the dat
 - **Reliability and security:** command-socket peer authorization, network-state crash recovery, and parser tests.
 - **Desktop and delivery:** menu-bar GUI, WebKit login, notifications, launchd, and DMG/PKG packaging.
 
-[Port #227](https://github.com/ancwrd1/snx-rs/pull/227) · [Hardening #229](https://github.com/ancwrd1/snx-rs/pull/229) · [GUI #230](https://github.com/ancwrd1/snx-rs/pull/230) · [Packaging #231](https://github.com/ancwrd1/snx-rs/pull/231)
-
 ### rust-lang/libc · Apple platform bindings
 
 <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/dot-green.svg" width="8" height="8" alt="" /> **Merged upstream.** I added missing Apple socket/network-interface `ioctl` constants, with native SDK checks and public API coverage.
-
-[libc #5263 →](https://github.com/rust-lang/libc/pull/5263)
 
 ### AnyPS5 · Native ARM64 ahead-of-time compilation
 
@@ -53,15 +49,6 @@ When something breaks, I follow it across the stack: from the request to the dat
 | **[LENIA-3D](https://github.com/yabanana/LENIA-3D)** | **Continuous cellular automata** in 2D/3D: FFT convolution, OpenMP, isosurfaces, and parameter searches for emergent behavior. |
 | **[ParallelWatorCA](https://github.com/yabanana/ParallelWatorCA)** | Predator–prey simulation across processes/threads with **MPI + OpenMP**. |
 | **[Fildem](https://github.com/yabanana/Fildem)** | My GNOME global-menu fork/rewrite: **C/GObject core**, session daemon, versioned D-Bus contracts, Shell extension, and GTK4 HUD. |
-
-<details>
-<summary><b>Earlier experiments ↗</b></summary>
-
-<br>
-
-**[VulkanTorus](https://github.com/yabanana/VulkanTorus):** C++/Vulkan on Linux: swapchains, command buffers, synchronization. **[FlappyD](https://github.com/yabanana/FlappyD):** Java game loops, input, and state.
-
-</details>
 
 ## <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/section-private.svg" width="24" height="24" alt="" /> Beyond public repositories
 
