@@ -1,17 +1,10 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/header.svg" alt="Daniele Giovane — Systems, graphics, and the software in between." width="100%" />
-</p>
+# Daniele Giovane
 
-<p align="center">
-  <a href="#open-source-contributions">Open source</a> &nbsp; / &nbsp;
-  <a href="#personal-projects">Personal projects</a> &nbsp; / &nbsp;
-  <a href="#beyond-public-repositories">Private work</a> &nbsp; / &nbsp;
-  <a href="#how-i-work">How I work</a>
-</p>
+**Systems & backend developer** · Native platforms, compilers, graphics, and simulation.
 
-## Close to the machine. Connected to the whole system.
+[Open source](#open-source-contributions) · [Personal projects](#personal-projects) · [Private work](#beyond-public-repositories) · [How I work](#how-i-work)
 
-I'm **Daniele**, a systems and backend developer in Italy. I work on the boundaries where software gets interesting: between an instruction set and a compiler, a VPN and the operating system, a renderer and the GPU, or a service and the data it must keep consistent.
+<img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/dot-blue.svg" width="8" height="8" alt="" /> I'm **Daniele**, a systems and backend developer in Italy. I work on the boundaries where software gets interesting: between an instruction set and a compiler, a VPN and the operating system, a renderer and the GPU, or a service and the data it must keep consistent.
 
 I like understanding a system deeply enough to **build it, explain its failures, and make it behave predictably**. My work spans native platform integration, compiler/runtime experiments, real-time graphics, parallel simulation, and backend products.
 
@@ -22,7 +15,7 @@ Apple silicon & Linux · Concurrency · Graphics · Distributed systems · Artif
 
 ### snx-rs · Bringing a VPN client to macOS
 
-**Merged upstream.** I contributed the macOS platform backend, then followed it through hardening, desktop integration, and packaging. The work reaches from native networking APIs to the app people install:
+<img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/dot-green.svg" width="8" height="8" alt="" /> **Merged upstream.** I contributed the macOS platform backend, then followed it through hardening, desktop integration, and packaging. The work reaches from native networking APIs to the app people install:
 
 - **Networking:** utun interfaces, routing sockets, split DNS through SystemConfiguration, and Keychain integration.
 - **Reliability and security:** local command-socket peer authorization, crash recovery for network state, and parser tests.
@@ -32,13 +25,13 @@ Apple silicon & Linux · Concurrency · Graphics · Distributed systems · Artif
 
 ### rust-lang/libc · Filling a gap in Apple's platform bindings
 
-**Merged upstream.** I added missing socket and network-interface `ioctl` constants for Apple targets, with checks against the native SDK headers and coverage of the crate's public API. Small surface area; careful attention to the OS interface underneath it.
+<img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/dot-green.svg" width="8" height="8" alt="" /> **Merged upstream.** I added missing socket and network-interface `ioctl` constants for Apple targets, with checks against the native SDK headers and coverage of the crate's public API. Small surface area; careful attention to the OS interface underneath it.
 
 [Read the patch → libc #5263](https://github.com/rust-lang/libc/pull/5263)
 
 ### AnyPS5 · Exploring native ARM64 ahead-of-time compilation
 
-**Open PR series / experimental.** I'm developing an offline path from x86-64 ELF programs to native ARM64 code: instruction semantics, LLVM lowering, ABI boundaries, native providers, and the runtime needed to execute the result. Generated programs run without an x86 interpreter, JIT, or Rosetta dependency.
+<img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/dot-amber.svg" width="8" height="8" alt="" /> **Open PR series / experimental.** I'm developing an offline path from x86-64 ELF programs to native ARM64 code: instruction semantics, LLVM lowering, ABI boundaries, native providers, and the runtime needed to execute the result. Generated programs run without an x86 interpreter, JIT, or Rosetta dependency.
 
 <details>
 <summary><b>Explore the compiler, runtime, and validation work ↗</b></summary>
@@ -81,7 +74,7 @@ Separate, merged contributions include [macOS unwind register contexts #1499](ht
 
 ## Beyond public repositories
 
-My private projects extend the same interests into software people interact with:
+<img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/dot-blue.svg" width="8" height="8" alt="" /> My private projects extend the same interests into software people interact with:
 
 - **Sim-racing operations:** a booking and event platform built with Go, PostgreSQL, and web/mobile clients; tenant isolation, background jobs, and rules enforced on the backend.
 - **Live race telemetry:** a Go desktop application and UDP-to-WebSocket relay, with concurrent race streams, synchronized state, and deterministic replay for testing.
@@ -89,7 +82,7 @@ My private projects extend the same interests into software people interact with
 
 ## How I work
 
-**Correctness first. Measure next. Optimize what matters.**
+<img src="https://raw.githubusercontent.com/yabanana/yabanana/main/assets/dot-blue.svg" width="8" height="8" alt="" /> **Correctness first. Measure next. Optimize what matters.**
 
 I follow problems across layers: from an API symptom to a database transaction, from a broken tunnel to routing state, from a rendered frame to GPU resource ownership. I value small reproducible cases, independent reference results, explicit failure paths, and clear boundaries between what is implemented and what is verified.
 
@@ -97,7 +90,7 @@ The questions that keep pulling me back: **How does this execute? Where does the
 
 ---
 
-<p align="center">
+<p>
   <b>Building things I want to understand — and making that understanding useful.</b><br><br>
   <a href="https://github.com/yabanana?tab=repositories">Browse repositories</a> &nbsp; · &nbsp;
   <a href="https://github.com/pulls?q=is%3Apr+author%3Ayabanana+-user%3Ayabanana">Explore upstream contributions</a>
